@@ -26,7 +26,7 @@ class School
   
   # Sorts the roster by name
   def sort
-    @roster.sort_by {|l| l[:grade]}
+    @roster.sort_by {|l| l[grade]}
   end
   
   
