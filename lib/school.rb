@@ -16,9 +16,9 @@ class School
   end
   
   # Gives the Roster for a grade level
-  def grade(class)
+  def grade(level)
     roster.detect do |x,y|
-      if x == class
+      if x == level
          y
       end
     end
