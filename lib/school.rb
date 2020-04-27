@@ -27,7 +27,9 @@ class School
   # Sorts the roster by name
   def sort
     roster.sort_by |x, y|
-    
+      y
+    end
+  end
   
   
   
