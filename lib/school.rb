@@ -25,7 +25,7 @@ class School
   end
   
   # Sorts the roster by name
-  
+  def sort
   
   
   
