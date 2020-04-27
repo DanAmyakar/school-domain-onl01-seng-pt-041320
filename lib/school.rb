@@ -26,11 +26,11 @@ class School
   
   # Sorts the roster by name
   def sort 
-    nu_hash = {}
+    n_hash = {}
     roster.each do |x, y| 
       nu_hash[x] = y.sort 
     end 
-  nu_hash
+  n_hash
   end 
   
   
