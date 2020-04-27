@@ -27,9 +27,7 @@ class School
   # Sorts the roster by name
   def sort
     @roster.sort_by do |x, y|
-      x.sort do |name|
         x
-      end
     end
   end
   
